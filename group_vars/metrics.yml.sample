@@ -1,0 +1,18 @@
+# PROMETHEUS
+prometheus_port: 9091
+prometheus_listen_address: '' # To listen on all interfaces leave this empty
+# ALERTMANAGER
+alertmanager_port: 9093
+alertmanager_listen_address: '' # To listen on all interfaces leave this empty
+alertmanager_smtp_host: localhost
+alertmanager_smtp_port: 25
+alertmanager_send_email: 'localhost@localhost'
+alertmanager_receive_email:
+  - 'localhost@localhost'
+  - 'dummy@localhost'
+alertmanager_require_tls: 'false'
+# GRAFANA
+grafana_port: 3456
+grafana_admin_user: admin
+grafana_admin_password: admin
+grafana_default_theme: light

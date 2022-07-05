@@ -1,0 +1,21 @@
+{
+  "name": "grafana-monitoring-stack-playbook",
+  "version": "1.0.0",
+  "description": "Grafana Display Statistics & Metrics from database Alertmanager Query db of metrics and send alerts based on user defined rules \t| | Prometheus        \t| Collect and store metrics scraped from exporters in database   \t| | Node Exporter     \t| Export hardware and OS metrics via http endpoint                \t| | ZnapZend Exporter \t| Export state information on zfs snapshots and replication tasks \t|",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-to-music/grafana-monitoring-stack-playbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-to-music/grafana-monitoring-stack-playbook/issues"
+  },
+  "homepage": "https://github.com/coding-to-music/grafana-monitoring-stack-playbook#readme"
+}

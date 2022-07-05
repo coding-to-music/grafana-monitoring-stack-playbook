@@ -1,0 +1,33 @@
+.env 
+
+group_vars/metrics.yml
+group_vars/exporters.yml
+hosts
+
+# Ansible Tower ignore list
+
+# Ansible runtime and backups
+*.original
+*.tmp
+*.bkp
+*.retry
+*.*~
+
+# Tower runtime roles 
+# Important - do not remove
+roles/**
+!roles/requirements.yml
+
+# Try tyo avoid any plain-text passwords 
+*pwd*
+*pass*
+*password*
+*.txt
+
+# Exclude all binaries
+*.bin
+*.jar
+*.tar
+*.zip
+*.gzip
+*.tgz
