@@ -125,14 +125,14 @@ git clone https://github.com/45drives/monitoring-stack.git
 - Run metrics playbook
 
 ```sh
-cd /usr/share/monitoring-stack
+# cd /usr/share/monitoring-stack
 sudo ansible-playbook -i hosts deploy-monitoring.yml
 ```
 
 - To uninstall monitoring stack
 
 ```sh
-ansible-playbook -i hosts purge-monitoring.yml
+sudo ansible-playbook -i hosts purge-monitoring.yml
 ```
 
 # Verification
